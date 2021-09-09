@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>Joy_Mirror</defName>
+    <label>mirror</label>
+    <description>Colonists will preen and prep in front of the mirror, raising their social skill over time.</description>
+    <graphicData>
+      <texPath>Things/Joy/Mirror/Mirror</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.7,2)</drawSize>
+      <shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.1</JoyGainFactor>
+    </statBases>
+    <costList>
+      <Silver>40</Silver>
+    </costList>
+    <building>
+      <joyKind>Social</joyKind>
+    </building>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <costStuffCount>15</costStuffCount>
+    <pathCost>10</pathCost>
+    <designationCategory>Joy</designationCategory>
+    <researchPrerequisites>
+      <li>TBC_MirrorsResearch</li>
+    </researchPrerequisites>
+    <uiIconScale>0.5</uiIconScale>
+    <uiIconOffset>(0, 0.1)</uiIconOffset>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>
