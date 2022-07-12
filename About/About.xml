@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Basic Mirrors (Continued)</name>
   <packageId>Mlie.BasicMirrors</packageId>
@@ -17,6 +17,7 @@ Update of lime_time (trublucaribou)s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2230124203
 
 - Added the wall-mirror as it was almost finished
+- Removed the extra research tab
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
@@ -24,6 +25,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2230124203
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/BasicMirrors][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
     [/tr]
 [/table]
 	
@@ -48,4 +53,3 @@ Notes:
 [/list]
 </description>
 </ModMetaData>
-
