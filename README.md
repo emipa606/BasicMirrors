@@ -6,6 +6,7 @@ Update of lime_time (trublucaribou)s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2230124203
 
 - Added the wall-mirror as it was almost finished
+- Removed the extra research tab
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -31,6 +32,7 @@ Notes:
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

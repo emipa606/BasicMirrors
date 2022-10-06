@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase" Name="Joy_MirrorBase" Abstract="True">
+    <description>Colonists will preen and prep in front of the mirror, raising their social skill over time.</description>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.1</JoyGainFactor>
+    </statBases>
+    <costList>
+      <Silver>40</Silver>
+    </costList>
+    <building>
+      <joyKind>Social</joyKind>
+    </building>
+    <hasInteractionCell>true</hasInteractionCell>
+    <designationCategory>Joy</designationCategory>
+    <researchPrerequisites>
+      <li>TBC_MirrorsResearch</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <uiIconScale>0.7</uiIconScale>
+    <uiIconOffset>(0, 0.1)</uiIconOffset>
+  </ThingDef>
+  <ThingDef ParentName="Joy_MirrorBase">
+    <defName>Joy_Mirror</defName>
+    <label>mirror</label>
+    <graphicData>
+      <texPath>Things/Joy/Mirror/Mirror</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.7,2)</drawSize>
+      <shadowData>
+        <volume>(0.08, 0.2, 0.08)</volume>
+        <offset>(0, 0, -0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <pathCost>10</pathCost>
+    <uiIconScale>0.5</uiIconScale>
+    <uiIconOffset>(0, 0.1)</uiIconOffset>
+  </ThingDef>
+  <ThingDef ParentName="Joy_MirrorBase">
+    <defName>Joy_WallMirror</defName>
+    <label>wall mirror</label>
+    <graphicData>
+      <texPath>Things/Joy/WallMirror/WallMirror</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <drawOffsetNorth>(0,0,-0.9)</drawOffsetNorth>
+      <drawOffsetSouth>(0,0,0.9)</drawOffsetSouth>
+      <drawOffsetEast>(-0.9,0,0)</drawOffsetEast>
+      <drawOffsetWest>(0.9,0,0)</drawOffsetWest>
+    </graphicData>
+  </ThingDef>
+</Defs>
