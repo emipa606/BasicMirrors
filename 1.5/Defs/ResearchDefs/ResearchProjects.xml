@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>TBC_MirrorsResearch</defName>
+    <label>basic mirrors</label>
+    <description>Build small mirrors for your colonists to look at themselves in.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>
