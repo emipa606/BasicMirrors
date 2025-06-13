@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mirror -->
+  <Joy_Mirror.label>mirror</Joy_Mirror.label>
+  <!-- EN: Colonists will preen and prep in front of the mirror, raising their social skill over time. -->
+  <Joy_Mirror.description>Colonists will preen and prep in front of the mirror, raising their social skill over time.</Joy_Mirror.description>
+  <!-- EN: wall mirror -->
+  <Joy_WallMirror.label>wall mirror</Joy_WallMirror.label>
+  <!-- EN: Colonists will preen and prep in front of the mirror, raising their social skill over time. -->
+  <Joy_WallMirror.description>Colonists will preen and prep in front of the mirror, raising their social skill over time.</Joy_WallMirror.description>
+</LanguageData>
