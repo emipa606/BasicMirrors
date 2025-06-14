@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>4d286f58-9a33-4a44-b790-c9795714f404</ID>
   <ModName>Basic Mirrors (Continued)</ModName>
-  <Version>1.6.0</Version>
+  <Version>1.6.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
